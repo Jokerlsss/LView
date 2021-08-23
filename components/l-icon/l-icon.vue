@@ -3,6 +3,11 @@
 </template>
 
 <script>
+	/**
+	 * @description svg图标
+	 * @param {String} name 图标类名
+	 * @param {String} color 图标颜色
+	 */
 	export default {
 		name:"l-icon",
 		props:{

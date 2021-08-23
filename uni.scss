@@ -15,10 +15,14 @@
 /* 颜色变量 */
 
 /* 行为相关颜色 */
-$uni-color-primary: #007aff;
-$uni-color-success: #4cd964;
+$uni-color-primary: #6c9eff;
+$uni-color-success: #70ce8b;
 $uni-color-warning: #f0ad4e;
-$uni-color-error: #dd524d;
+$uni-color-error: #ff6f6f;
+$uni-color-primary-10opa: rgba(#6c9eff, .1);
+$uni-color-success-10opa: rgba(#70ce8b, .1);
+$uni-color-warning-10opa: rgba(#f0ad4e, .1);
+$uni-color-error-10opa: rgba(#ff6f6f, .1);
 
 /* 文字基本颜色 */
 $uni-text-color:#333;//基本色

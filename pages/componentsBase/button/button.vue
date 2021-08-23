@@ -1,6 +1,7 @@
+<!-- 基础组件：按钮 -->
 <template>
 	<view>
-		button page
+		<l-button></l-button>
 	</view>
 </template>
 

@@ -14,7 +14,16 @@
             "path" : "pages/componentsBase/button/button",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
+                "navigationBarTitleText": "按钮",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/componentsBase/layout/layout",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "布局",
                 "enablePullDownRefresh": false
             }
             

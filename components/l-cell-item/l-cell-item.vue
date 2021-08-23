@@ -11,8 +11,10 @@
 			<view class="cell-title" :style="{
 					color: titleColor
 				}">
+				<image v-if="isHeadIcon && headIconUrl!==''" :src="headIconUrl" class="cell-title-img"></image>
 				{{title}}
 			</view>
+			<!-- 右边箭头 -->
 			<view class="cell-icon">
 				<!-- TODO 改为支持更换图标 -->
 				<l-icon class="icon_arrow_right"></l-icon>
@@ -29,7 +31,11 @@
 	 * @property {String} height 整体高度
 	 * @property {String} bgColor 整体背景颜色
 	 * @property {String} borderColor 上下边框颜色
+	 * @property {Boolean} isBorderTop 是否显示上边框
+	 * @property {Boolean} isBorderBottom 是否显示下边框
 	 * @property {String} titleColor 标题颜色
+	 * @property {Boolean} isHeadIcon 是否显示标题头部 icon
+	 * @property {String} headIconUrl 标题头部 icon 路径
 	 */
 	import _style from '../../common/LView-style.js'
 	export default {
@@ -69,6 +75,16 @@
 			titleColor: {
 				type: String,
 				default: _style.mainFont
+			},
+			// 是否显示标题头部 icon
+			isHeadIcon:{
+				type: Boolean,
+				default:true
+			},
+			// 标题头部 icon 路径
+			headIconUrl:{
+				type: String,
+				default:''
 			}
 		},
 		methods:{
@@ -99,10 +115,18 @@
 	}
 
 	.cell-title {
+		display: flex;
+		align-items: center;
 		padding: 5px 10px;
 	}
 
 	.cell-icon {
 		padding: 5px 10px;
+	}
+	
+	.cell-title-img{
+		height: 48rpx;
+		width: 48rpx;
+		margin-right: 10rpx;
 	}
 </style>

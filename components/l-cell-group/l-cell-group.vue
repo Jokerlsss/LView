@@ -6,11 +6,20 @@
 			fontSize: fontSize,
 			height: titleHeight
 		}">{{title}}</view>
+		<!-- 插入l-cell-item -->
 		<slot></slot>
 	</view>
 </template>
 
 <script>
+	/**
+	 * @description 单元格组，与 l-cell-item 一起使用
+	 * @property {String} title 模块名
+	 * @property {String} textAlign 模块名位置
+	 * @property {String} titleColor 模块名颜色
+	 * @property {String} fontSize 模块名字体大小
+	 * @property {String} titleHeight 模块名所处容器高度
+	 */
 	export default {
 		name:"l-cell-group",
 		props:{
@@ -42,7 +51,6 @@
 		},
 		data() {
 			return {
-				
 			};
 		}
 	}
