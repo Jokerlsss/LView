@@ -1,0 +1,44 @@
+{
+  "id": "2758498",
+  "name": "LView",
+  "font_family": "iconfont",
+  "css_prefix_text": "",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "16607264",
+      "name": "icon_arrow_down",
+      "font_class": "icon_arrow_down",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "16607270",
+      "name": "icon_arrow_up",
+      "font_class": "icon_arrow_up",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "16607292",
+      "name": "icon_search",
+      "font_class": "icon_search",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "16654365",
+      "name": "icon_arrow_down",
+      "font_class": "icon_arrow_down1",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "16607267",
+      "name": "icon_arrow_right",
+      "font_class": "icon_arrow_right",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    }
+  ]
+}

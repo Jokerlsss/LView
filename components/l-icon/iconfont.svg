@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg">
+  <metadata>Created by iconfont</metadata>
+  <defs>
+  <font id="iconfont" horiz-adv-x="1024">
+    <font-face
+      font-family="iconfont"
+      font-weight="400"
+      font-stretch="normal"
+      units-per-em="1024"
+      ascent="896"
+      descent="-128"
+    />
+      <missing-glyph />
+      
+      <glyph glyph-name="icon_arrow_down" unicode="&#58924;" d="M195.408162 557.254834l316.783838-316.783838 316.783838 316.783838 45.254834-45.254834-362.038672-362.038672L150.153328 512l45.254834 45.254834z"  horiz-adv-x="1024" />
+      
+      <glyph glyph-name="icon_arrow_up" unicode="&#58925;" d="M195.422939 232.15684l316.783838 316.783838 316.783838-316.783838 45.254834 45.254834-362.038672 362.038672-362.038672-362.038672 45.254834-45.254834z"  horiz-adv-x="1024" />
+      
+      <glyph glyph-name="icon_search" unicode="&#58928;" d="M479.808 768a351.808 351.808 0 0 0 270.336-576.96L896 45.248l-45.248-45.248-145.856 145.856A351.808 351.808 0 1 0 479.744 768z m0-64a287.872 287.872 0 1 1 0-575.616 287.872 287.872 0 0 1 0 575.68z"  horiz-adv-x="1024" />
+      
+      <glyph glyph-name="icon_arrow_down1" unicode="&#58937;" d="M695.110834 703.535838l-316.783838-316.783838 316.783838-316.783838-45.254834-45.254834-362.038672 362.038672 362.038672 362.038672 45.254834-45.254834z"  horiz-adv-x="1024" />
+      
+      <glyph glyph-name="icon_arrow_right" unicode="&#58923;" d="M338.732432 703.530564l316.783838-316.783838-316.783838-316.783838 45.254834-45.254834L746.025938 386.746726l-362.038672 362.038672-45.254834-45.254834z"  horiz-adv-x="1024" />
+      
+    </font>
+  </defs>
+</svg>
