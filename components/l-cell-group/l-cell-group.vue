@@ -59,6 +59,7 @@
 <style lang="scss" scoped>
 .cell-group-container{
 	width: 100%;
+	margin-top: 10px;
 }
 
 .cell-group-title{

@@ -27,6 +27,8 @@
 	 * @param {String} fontSize 字体大小
 	 * @param {String} type 按钮主题，优先级 > bgColor，可选值 [ primary | warn | success | error ]
 	 * @param {Boolean} disabled 是否禁用
+	 * 
+	 * @event {Function()} clickEvent 按钮点击事件
 	 */
 	import _style from '../../common/LView-style.js'
 	export default {

@@ -36,6 +36,8 @@
 	 * @property {String} titleColor 标题颜色
 	 * @property {Boolean} isHeadIcon 是否显示标题头部 icon
 	 * @property {String} headIconUrl 标题头部 icon 路径
+	 * 
+	 * @event {Function()} clickEvent 单元格点击事件
 	 */
 	import _style from '../../common/LView-style.js'
 	export default {
@@ -117,7 +119,7 @@
 	.cell-title {
 		display: flex;
 		align-items: center;
-		padding: 5px 10px;
+		padding: 5px 20px;
 	}
 
 	.cell-icon {
@@ -127,6 +129,6 @@
 	.cell-title-img{
 		height: 48rpx;
 		width: 48rpx;
-		margin-right: 10rpx;
+		margin-right: 20rpx;
 	}
 </style>

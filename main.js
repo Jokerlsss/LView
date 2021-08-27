@@ -5,10 +5,12 @@ import LStyle from 'common/LView-style.js'
 
 // 获取整个父组件
 import $parent from './utils/$parent.js'
+import $zIndex from './utils/$zIndex.js'
 
 // 全局通用方法及配置
 const $l = {
-	$parent
+	$parent,
+	$zIndex
 }
 
 // $l 挂载到 $l 对象上

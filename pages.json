@@ -28,6 +28,51 @@
             }
             
         }
+        ,{
+            "path" : "pages/componentsBase/cell/cell",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "单元格",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/componentsBase/subsection/subsection",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "分段器",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/componentsBase/select/select",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "选择器",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/componentsBase/popup/popup",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "弹出层",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/componentsBase/mask/mask",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "遮罩层",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

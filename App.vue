@@ -1,5 +1,8 @@
 <script>
 	export default {
+		// onLaunch() {
+		// 	plus.runtime.setBadgeNumber(8);
+		// }
 	}
 </script>
 
